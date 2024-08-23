@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/img/background.jpg");
+    height: 99vh;
+    position: relative;
+}
+
+.box {
+    background-color: black;
+    opacity: 0.70;
+    position: relative;
+    top: 0;
+    height: 90vh;
+}
+
+nav {
+    /* background-color: red; */
+    /* max-width: 89vw; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    /* position: absolute; */
+    background-color: black;
+    opacity: 0.70;
+}
+
+nav img {
+    height: 35px;
+    position: relative;
+    z-index: 10;
+}
+
+nav .btn {
+    padding-left: 350px;
+    position: relative;
+    z-index: 20;
+}
+
+.btn-lang {
+    padding: 4px 25px;
+    font-weight: 900;
+    color: white;
+    background-color: black;
+    opacity: 0.9;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+nav .btn-red {
+    padding: 4px 25px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(129, 35, 32);
+    opacity: 0.9;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pet {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 150px;
+    color: white;
+    /* border: 0.5px solid white; */
+    border-radius: 4px;
+    background-color: black;
+}
+
+.btn-red-s {
+    padding: 15px 70px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.data {
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    color: white;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    /* padding: 130px 0; */
+}
+
+.data> :nth-child(1) {
+    font-size: 50px;
+    font-weight: 900;
+    padding: 9px 0;
+}
+
+.data> :nth-child(2) {
+    padding: 12px 0;
+    font-size: 26px;
+}
+
+.data> :nth-child(3) {
+    padding: 10px 0;
+    font-size: 26px;
+}
+
+.line {
+    height: 10px;
+    background-color: rgb(53, 51, 51);
+}
+
+.x {
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+section img {
+    width: 600px;
+    height: 480px;
+    margin-left: 5px;
+    position: relative;
+    z-index: 10;
+}
+
+.bold {
+    font-size: 55px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+.small {
+    font-size: 22px;
+}
+
+.fimg {
+    position: relative;
+}
+
+.second {
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fimg video {
+    position: absolute;
+    top: 98px;
+    right: 0;
+    left: 55px;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.faq .boxx {
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    max-width: 63vw;
+    margin: 9px auto;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+.faq h2 {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.faq .boxx span {
+    font-size: 20px;
+}
+
+.boxx:hover {
+
+    background-color: #414141;
+
+}
+
+.boxx svg {
+    color: white;
+}
+
+.s {
+    height: 20vh;
+    background-color: black;
+}
+
+.s p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.s .signin {
+    padding-left: 450px;
+    padding-top: 20px;
+}
+
+.footer {
+    height: 18vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer ul {
+    display: grid;
+    grid-template-columns: 320px 320px 320px 22px;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 20px;
+
+}
+
+.footer ul li {
+    padding-bottom: 15px;
+    padding-right: 50px;
+    cursor: pointer;
+    width: max-content;
+    text-decoration-line: underline;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.footer ul li:hover {
+    background-color: black;
+   
+}
+
+.f {
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
+.spy {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+}
+
+.f .num {
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    .footer ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
